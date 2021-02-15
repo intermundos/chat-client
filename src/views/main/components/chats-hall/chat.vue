@@ -33,7 +33,7 @@
 
     <div class="flex flex-grow">
 
-      <div class="char-area w-full overflow-y-auto bg-gray-50" ref="chatArea">
+      <div class="char-area w-full overflow-y-scroll bg-gray-50" ref="chatArea">
 
         <template v-for="message in messages" :key="message.ts">
 
